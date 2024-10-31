@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-button {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #fff;
+    color: #333;
+}
