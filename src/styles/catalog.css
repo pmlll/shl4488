@@ -2,29 +2,19 @@
     padding: 20px;
 }
 
-.filters {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-.category-filter button,
-.sort-options button {
-    margin-right: 10px;
-    padding: 10px 15px;
-    cursor: pointer;
-}
-
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(4, 1fr); /* Четыре элемента в ряду */
     gap: 20px;
+    justify-items: center; /* Выравнивание карточек по центру */
 }
 
 .product-card {
     border: 1px solid #ddd;
     padding: 15px;
     text-align: center;
+    width: 100%; /* Устанавливаем ширину карточек */
+    max-width: 200px; /* Ограничиваем максимальную ширину */
 }
 
 .product-card img {

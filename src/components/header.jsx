@@ -12,7 +12,7 @@ import '../styles/Header.css';
 
 import About from '../pages/about';
 import Banner from '../pages/banner';
-import CatalogPage from '../pages/page1';
+import CatalogPage from '../pages/Cataloge';
 
 const Header = () => {
     return (

@@ -8,7 +8,7 @@ import {
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import Banner from "./pages/banner";
+import test from "./test.jsx";
 
 
 const router = createBrowserRouter([
