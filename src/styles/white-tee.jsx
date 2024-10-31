@@ -1,47 +1,28 @@
-import image from './photos/blackjersey.webp'
+import image from './photos/Whitetee.webp'
 
 import React, { useState } from 'react';
 
-function BlackJersey({ addToCart }) {
+const WhiteTee = () => {
     const [selectedSize, setSelectedSize] = useState('');
     const sizes = ['S', 'M', 'L', 'XL'];
 
-
-    const product = {
-        name: 'black/jersey$$$',
-        price: 2800,
-        image: image,
-    };
-
     const handleSizeChange = (size) => {
         setSelectedSize(size);
-    };
-
-    const handleAddToCart = () => {
-        if (selectedSize) {
-            const productWithSize = {
-                ...product,
-                size: selectedSize
-            };
-            addToCart(productWithSize);
-        } else {
-            alert('Please select a size before adding to cart.');
-        }
     };
 
     return (
         <div style={styles.container}>
             <div style={styles.imageContainer}>
                 <img
-                    src={product.image}
-                    alt={product.name}
+                    src={image}
+                    alt="Product"
                     style={styles.image}
                 />
             </div>
             <div style={styles.detailsContainer}>
-                <h1 style={styles.title}>{product.name}</h1>
-                <p style={styles.price}>₴{product.price}</p>
-                <p style={styles.description}>jersey fo stupid funs</p>
+                <h1 style={styles.title}>Белая мотокросс футболка</h1>
+                <p style={styles.price}>₽4999</p>
+                <p style={styles.description}>Высококачественная мотокросс футболка из прочных материалов.</p>
 
                 <div style={styles.sizeContainer}>
                     <h3>Выберите размер:</h3>
@@ -61,13 +42,12 @@ function BlackJersey({ addToCart }) {
                         ))}
                     </div>
                 </div>
-                <button style={styles.addButton} onClick={handleAddToCart}>
-                    Додати до корзини
-                </button>
+
+                <button style={styles.addButton} onClick={() => addToCart(product)}>Додати до корзини</button>
             </div>
         </div>
     );
-}
+};
 
 const styles = {
     container: {
@@ -130,4 +110,4 @@ const styles = {
     }
 };
 
-export default BlackJersey;
+export default WhiteTee;

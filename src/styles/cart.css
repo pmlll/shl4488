@@ -1,0 +1,16 @@
+.cart-page {
+    padding: 20px;
+}
+
+.cart-page ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-page li {
+    margin-bottom: 10px;
+}
+
+.cart-page button {
+    margin-left: 10px;
+}

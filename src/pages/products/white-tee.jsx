@@ -1,28 +1,46 @@
-import image from './photos/Whitetee.webp'
-
+import image from './photos/Whitetee.webp';
 import React, { useState } from 'react';
 
-const WhiteTee = () => {
+function WhiteTee({ addToCart }) {
     const [selectedSize, setSelectedSize] = useState('');
     const sizes = ['S', 'M', 'L', 'XL'];
 
+
+    const product = {
+        name: 'white/long$$$',
+        price: 4000,
+        image: image,
+    };
+
     const handleSizeChange = (size) => {
         setSelectedSize(size);
+    };
+
+    const handleAddToCart = () => {
+        if (selectedSize) {
+            const productWithSize = {
+                ...product,
+                size: selectedSize
+            };
+            addToCart(productWithSize);
+        } else {
+            alert('Please select a size before adding to cart.');
+        }
     };
 
     return (
         <div style={styles.container}>
             <div style={styles.imageContainer}>
                 <img
-                    src={image}
-                    alt="Product"
+                    src={product.image}
+                    alt={product.name}
                     style={styles.image}
                 />
             </div>
             <div style={styles.detailsContainer}>
-                <h1 style={styles.title}>Белая мотокросс футболка</h1>
-                <p style={styles.price}>₽4999</p>
-                <p style={styles.description}>Высококачественная мотокросс футболка из прочных материалов.</p>
+                <h1 style={styles.title}>{product.name}</h1>
+                <p style={styles.price}>₴{product.price}</p>
+                <p style={styles.description}>white fo white nggs???</p>
 
                 <div style={styles.sizeContainer}>
                     <h3>Выберите размер:</h3>
@@ -42,12 +60,13 @@ const WhiteTee = () => {
                         ))}
                     </div>
                 </div>
-
-                <button style={styles.addButton}>Добавить в корзину</button>
+                <button style={styles.addButton} onClick={handleAddToCart}>
+                    Додати до корзини
+                </button>
             </div>
         </div>
     );
-};
+}
 
 const styles = {
     container: {

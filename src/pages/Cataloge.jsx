@@ -11,20 +11,19 @@ import Lastrelease from "./Lastrelease";
 
 
 
-function CatalogPage() {
+function CatalogPage({ addToCart }) {
     return (
         <div className="catalog-page">
-            <h1>Cataloge</h1>
+            <h1>Ccataloge</h1>
             <div className="product-grid">
-                <WhiteTee/>
-                <BlackLong/>
-                <BlackTee/>
-                <Bandana/>
-                <Blackjersey/>
-                <Whitejersey/>
-                <Frenchtee/>
+                <WhiteTee addToCart={addToCart} />
+                <BlackLong addToCart={addToCart} />
+                <BlackTee addToCart={addToCart} />
+                <Bandana addToCart={addToCart} />
+                <Blackjersey addToCart={addToCart} />
+                <Whitejersey addToCart={addToCart} />
+                <Frenchtee addToCart={addToCart} />
             </div>
-            <Lastrelease/>
         </div>
     );
 }

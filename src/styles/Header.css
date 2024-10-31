@@ -3,12 +3,15 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+
     background-color: #333;
     color: #fff;
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 30px;
+    font-family: "Monsieur La Doulaise", sans-serif;
+    font-weight: 100;
 }
 
 .nav {
@@ -24,9 +27,17 @@
     cursor: pointer;
     border-radius: 4px;
     transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none;
 }
 
 .nav-button:hover {
     background-color: #fff;
     color: #333;
+}
+
+@font-face {
+    font-family: "Monsieur La Doulaise";
+    src: url("../fonts/MonsieurLaDoulaise-Regular.ttf") format("opentype");
+    font-style: normal;
+    font-weight: normal;
 }

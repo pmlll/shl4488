@@ -10,9 +10,9 @@ const Banner = () => {
             <video className="banner-video" src={video} autoPlay loop muted />
             <div className="banner-overlay"></div>
             <div className="banner-content">
-                <h1>Добро пожаловать в Магазин Вещей</h1>
-                <p>Самые стильные и качественные вещи для вас</p>
-                <button className="banner-button">Посмотреть коллекцию</button>
+                <h1></h1>
+                <p></p>
+                <button className="banner-button">LOVE LASTS FOREVER</button>
             </div>
         </div>
     );

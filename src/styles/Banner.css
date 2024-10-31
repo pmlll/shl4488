@@ -47,14 +47,19 @@
 
 .banner-button {
     padding: 1rem 2rem;
-    background-color: #ff7a00;
+    background: none;
     border: none;
-    color: white;
+    color: #ffffff;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 2rem;
     transition: background-color 0.3s;
 }
 
 .banner-button:hover {
-    background-color: #ff5500;
+    background: none;
+}
+
+@font-face {
+    font-family: "Great-Vibes";
+    src: url("../fonts/GreatVibes-Regular.ttf") format("opentype");
 }

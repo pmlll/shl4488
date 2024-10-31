@@ -17,11 +17,12 @@ import CatalogPage from '../pages/Cataloge';
 const Header = () => {
     return (
             <header className="header">
-                <h1 className="logo">MyShop</h1>
+                <h1 className="logo">shl 4488</h1>
                 <nav className="nav">
-                    <NavLink to="/" className="nav-button">Главная</NavLink>
+                    <NavLink to="/" className="nav-button">Головна</NavLink>
                     <NavLink to="/CatalogPage" className="nav-button">Каталог</NavLink>
-                    <NavLink to="/About" className="nav-button">О нас</NavLink>
+                    <NavLink to="/cart" className="nav-button">Корзина</NavLink>
+                    <NavLink to="/About" className="nav-button">Про нас</NavLink>
                 </nav>
             </header>
     );
