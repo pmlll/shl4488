@@ -10,9 +10,6 @@ import {
 
 import '../styles/Header.css';
 
-import About from '../pages/about';
-import Banner from '../pages/banner';
-import CatalogPage from '../pages/Cataloge';
 
 const Header = () => {
     return (
@@ -23,6 +20,8 @@ const Header = () => {
                     <NavLink to="/CatalogPage" className="nav-button">Каталог</NavLink>
                     <NavLink to="/cart" className="nav-button">Корзина</NavLink>
                     <NavLink to="/About" className="nav-button">Про нас</NavLink>
+                    <NavLink to="/login" className="nav-button">Login</NavLink>
+                    <NavLink to="/singup" className="nav-button">Signup</NavLink>
                 </nav>
             </header>
     );

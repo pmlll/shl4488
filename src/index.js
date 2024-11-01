@@ -4,11 +4,12 @@ import {
     createBrowserRouter,
     RouterProvider,
 } from "react-router-dom";
+import reportWebVitals from './reportWebVitals';
 
 import "./index.css";
 import App from "./App";
-import reportWebVitals from "./reportWebVitals";
-import test from "./test.jsx";
+import Singup from "./pages/singup";
+
 
 
 const router = createBrowserRouter([

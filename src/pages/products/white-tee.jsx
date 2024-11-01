@@ -73,7 +73,7 @@ const styles = {
         display: 'flex',
         flexDirection: 'row',
         maxWidth: '800px',
-        backgroundColor: '#fff',
+        backgroundColor: 'rgba(255,255,255,0.89)',
         borderRadius: '8px',
         boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
         padding: '20px',

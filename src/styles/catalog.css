@@ -1,5 +1,7 @@
 .catalog-page {
     padding: 20px;
+    background: #000000;
+
 }
 
 .product-grid {
@@ -21,4 +23,9 @@
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
+}
+
+.text-cc {
+    color: white;
+    text-align: center;
 }

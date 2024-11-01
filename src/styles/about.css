@@ -3,10 +3,10 @@
 .about-us {
     position: relative;
     background-image: url('../content/BAFlag.webp'); /* Замените на путь к вашему изображению */
-    background-size: cover;
-    background-position: center;
+    background-size: auto;
+    background-position: initial;
     background-attachment: fixed; /* Закрепленный фон при прокрутке */
-    padding: 4rem 0;
+    padding: 10rem 0;
     color: white;
 }
 

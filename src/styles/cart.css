@@ -1,5 +1,6 @@
 .cart-page {
-    padding: 20px;
+    padding: 10rem 0;
+    background-color: rgba(255, 255, 255, 0.89);
 }
 
 .cart-page ul {
@@ -13,4 +14,8 @@
 
 .cart-page button {
     margin-left: 10px;
+}
+
+.empty {
+    text-align: center;
 }

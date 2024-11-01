@@ -5,11 +5,11 @@ import '../styles/cart.css';
 function CartPage({ cartItems, removeFromCart }) {
     return (
         <div className="cart-page">
-            <h1>yo cart</h1>
+            <h1 className="empty">yo cart</h1>
             {cartItems.length === 0 ? (
-                <p>she`s empty =(</p>
+                <p className="empty">she`s empty =(</p>
             ) : (
-                <ul>
+                <ul className="empty">
                     {cartItems.map((item, index) => (
                         <li key={index}>
                             {item.name} (Розмір: {item.size}) - {item.price} грн
@@ -18,9 +18,20 @@ function CartPage({ cartItems, removeFromCart }) {
                     ))}
                 </ul>
             )}
+
+            <div style={{
+                backgroundColor: 'rgba(255, 0, 0, 0.7)', // Red with 70% transparency
+                padding: '165px',
+                opacity: 0 // Apply overall transparency
+            }}>
+                <h2>This box combines both opacity and transparent background</h2>
+                <p>This text has a red background with 70% transparency and the entire box is 80% opaque.</p>
+            </div>
         </div>
+
     );
 }
+
 const styles = {
     addButton: {
         marginTop: '20px',

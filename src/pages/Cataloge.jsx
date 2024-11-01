@@ -7,14 +7,14 @@ import Bandana from "./products/bandana";
 import Whitejersey from "./products/whitejersey";
 import Blackjersey from "./products/blackjersey";
 import Frenchtee from "./products/frenchtee";
-import Lastrelease from "./Lastrelease";
+
 
 
 
 function CatalogPage({ addToCart }) {
     return (
         <div className="catalog-page">
-            <h1>Ccataloge</h1>
+            <h1 className={"text-cc"}>Ccataloge</h1>
             <div className="product-grid">
                 <WhiteTee addToCart={addToCart} />
                 <BlackLong addToCart={addToCart} />

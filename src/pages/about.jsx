@@ -4,7 +4,7 @@ import '../styles/about.css';
 const About = () => {
     return (
         <div className="about-us">
-            <h1>О нас</h1>
+            <h1>Про нас</h1>
             <p>
                 Добро пожаловать в наш магазин! Мы стремимся предложить вам лучшие товары, которые
                 сочетают качество, стиль и доступность. Наша миссия — помочь вам находить вещи, которые
@@ -22,6 +22,14 @@ const About = () => {
                 <li>Дружелюбное обслуживание</li>
                 <li>Доступные цены</li>
             </ul>
+            <div style={{
+                backgroundColor: 'rgba(255, 0, 0, 0.7)', // Red with 70% transparency
+                padding: '0px',
+                opacity: 0 // Apply overall transparency
+            }}>
+                <h2>This box combines both opacity and transparent background</h2>
+                <p>This text has a red background with 70% transparency and the entire box is 80% opaque.</p>
+            </div>
         </div>
     );
 };

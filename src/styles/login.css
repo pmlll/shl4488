@@ -1,0 +1,98 @@
+/* Центрируем основное содержимое */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Контейнер для формы */
+section div {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    background-color: #444;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Заголовок */
+section p {
+    font-size: 28px;
+    font-family: "Monsieur La Doulaise", sans-serif;
+    font-weight: 100;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Формовые поля и кнопки */
+form div {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Метки для полей */
+form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #ccc;
+}
+
+/* Поля ввода */
+form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+form input::placeholder {
+    color: #888;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #fff;
+}
+
+/* Кнопка входа */
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Ссылка на регистрацию */
+.text-sm {
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 20px;
+}
+
+.text-sm a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.text-sm a:hover {
+    color: #aaa;
+}
