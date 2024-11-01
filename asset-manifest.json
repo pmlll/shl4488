@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/shl4488/static/css/main.5dd03e60.css",
+    "main.js": "/shl4488/static/js/main.fedbed38.js",
+    "static/js/453.cce45b18.chunk.js": "/shl4488/static/js/453.cce45b18.chunk.js",
+    "static/media/video.mp4": "/shl4488/static/media/video.edd7722535999793a9cb.mp4",
+    "static/media/GreatVibes-Regular.ttf": "/shl4488/static/media/GreatVibes-Regular.f51f1a4f2cd0c9611249.ttf",
+    "static/media/BAFlag.webp": "/shl4488/static/media/BAFlag.4a53961ec14c61100516.webp",
+    "static/media/bandana.webp": "/shl4488/static/media/bandana.03c0cd79eb545ef36b7e.webp",
+    "static/media/blacklong.webp": "/shl4488/static/media/blacklong.ad8ffec07fdc5e76fb4f.webp",
+    "static/media/Whitetee.webp": "/shl4488/static/media/Whitetee.e92b844e482b4637b9e9.webp",
+    "static/media/MonsieurLaDoulaise-Regular.ttf": "/shl4488/static/media/MonsieurLaDoulaise-Regular.45de1330219bda1946f4.ttf",
+    "static/media/frenchtee.webp": "/shl4488/static/media/frenchtee.28861e0446ae2174d42b.webp",
+    "static/media/blackjersey.webp": "/shl4488/static/media/blackjersey.2fa7256301b576ac00e1.webp",
+    "static/media/whitejersey.webp": "/shl4488/static/media/whitejersey.372426e1793be81b5065.webp",
+    "static/media/blacktee.webp": "/shl4488/static/media/blacktee.ff4604a3288ce33d2845.webp",
+    "index.html": "/shl4488/index.html",
+    "main.5dd03e60.css.map": "/shl4488/static/css/main.5dd03e60.css.map",
+    "main.fedbed38.js.map": "/shl4488/static/js/main.fedbed38.js.map",
+    "453.cce45b18.chunk.js.map": "/shl4488/static/js/453.cce45b18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5dd03e60.css",
+    "static/js/main.fedbed38.js"
+  ]
+}
