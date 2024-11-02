@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 
 import "./index.css";
 import App from "./App";
-import Singup from "./pages/singup";
+
 
 
 

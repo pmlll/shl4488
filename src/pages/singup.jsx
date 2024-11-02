@@ -50,7 +50,7 @@ const Signup = () => {
                         marginBottom: '20px',
                         color: '#fff'
                     }}>
-                        FocusApp
+                        SignUp
                     </h1>
 
                     <form>

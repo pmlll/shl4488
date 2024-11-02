@@ -9,6 +9,7 @@ import Banner from "./pages/banner";
 import About from "./pages/about";
 import Signup from "./pages/singup";
 import Login from "./pages/login"
+import AuthCheck from "./AuthCheck";
 
 function App() {
     const [cartItems, setCartItems] = useState([]);
@@ -30,7 +31,7 @@ function App() {
                         <Route path="/" element={<Banner/>}/>
                         <Route path="/catalogpage" element={<CatalogPage addToCart={addToCart}/>}/>
                         <Route path="/cart"
-                               element={<CartPage cartItems={cartItems} removeFromCart={removeFromCart}/>}/>
+                               element={<CartPage cartItems={cartItems} removeFromCart={removeFromCart}/>   }/>
                         <Route path="/about" element={<About/>}/>
                         <Route path="/singup" element={<Signup/>}/>
                         <Route path="/login" element={<Login/>}/>

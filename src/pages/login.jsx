@@ -49,7 +49,7 @@ const Login = () => {
                         marginBottom: '20px',
                         color: '#fff'
                     }}>
-                        FocusApp
+                        Login
                     </p>
 
                     <form>
