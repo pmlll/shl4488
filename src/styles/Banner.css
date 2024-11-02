@@ -18,6 +18,7 @@
     height: 100%;
     object-fit: cover;
     filter: grayscale(70%);
+    pointer-events: none;
 }
 
 .banner-overlay {

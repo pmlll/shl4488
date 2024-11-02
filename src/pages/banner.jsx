@@ -7,7 +7,7 @@ import '../styles/Banner.css';
 const Banner = () => {
     return (
         <div className="banner">
-            <video className="banner-video" src={video} autoPlay loop muted />
+            <video className="banner-video" src={video} playsInline autoPlay loop muted />
             <div className="banner-overlay"></div>
             <div className="banner-content">
                 <h1></h1>
