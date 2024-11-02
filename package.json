@@ -28,7 +28,7 @@
     "webpack": "^5.95.0",
     "webpack-cli": "^5.1.4"
   },
-  "homepage": "https://pmlll.github.io/shl4488/",
+  "homepage": "https://pmlll.github.io/banner/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
