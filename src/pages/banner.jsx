@@ -1,6 +1,5 @@
-// Импорт видеофайла
 import React from 'react';
-import video from '../content/video.mp4'; // Относительный путь к видеофайлу
+import video from '../content/video.mp4';
 import '../styles/Banner.css';
 
 

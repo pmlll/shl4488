@@ -1,4 +1,4 @@
-/* Центрируем основное содержимое */
+
 main {
     display: flex;
     justify-content: center;
@@ -8,7 +8,7 @@ main {
     color: #fff;
 }
 
-/* Контейнер для формы */
+
 section div {
     width: 100%;
     max-width: 400px;
@@ -19,7 +19,7 @@ section div {
     text-align: center;
 }
 
-/* Заголовок */
+
 section p {
     font-size: 28px;
     font-family: "Monsieur La Doulaise", sans-serif;
@@ -28,20 +28,18 @@ section p {
     color: #fff;
 }
 
-/* Формовые поля и кнопки */
+
 form div {
     margin-bottom: 20px;
     text-align: left;
 }
 
-/* Метки для полей */
 form label {
     font-size: 14px;
     margin-bottom: 5px;
     color: #ccc;
 }
 
-/* Поля ввода */
 form input {
     width: 100%;
     padding: 10px;
@@ -62,7 +60,6 @@ form input:focus {
     border-color: #fff;
 }
 
-/* Кнопка входа */
 form button {
     width: 100%;
     padding: 12px;
@@ -80,7 +77,6 @@ form button:hover {
     color: #333;
 }
 
-/* Ссылка на регистрацию */
 .text-sm {
     font-size: 14px;
     color: #ccc;

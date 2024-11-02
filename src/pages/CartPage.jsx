@@ -1,4 +1,3 @@
-// CartPage.jsx
 import React from 'react';
 import '../styles/cart.css';
 
@@ -20,9 +19,9 @@ function CartPage({ cartItems, removeFromCart }) {
             )}
 
             <div style={{
-                backgroundColor: 'rgba(255, 0, 0, 0.7)', // Red with 70% transparency
+                backgroundColor: 'rgba(255, 0, 0, 0.7)',
                 padding: '165px',
-                opacity: 0 // Apply overall transparency
+                opacity: 0
             }}>
                 <h2>This box combines both opacity and transparent background</h2>
                 <p>This text has a red background with 70% transparency and the entire box is 80% opaque.</p>

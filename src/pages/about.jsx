@@ -1,6 +1,5 @@
-// Импорт необходимых модулей и файлов
 import React from 'react';
-import video from '../content/about.mp4'; // Относительный путь к видеофайлу
+import video from '../content/about.mp4';
 import '../styles/about.css';
 
 const AboutUs = () => {

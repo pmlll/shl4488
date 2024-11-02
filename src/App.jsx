@@ -9,7 +9,6 @@ import Banner from "./pages/banner";
 import About from "./pages/about";
 import Signup from "./pages/singup";
 import Login from "./pages/login"
-import AuthCheck from "./AuthCheck";
 
 function App() {
     const [cartItems, setCartItems] = useState([]);
